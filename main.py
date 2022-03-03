@@ -4,6 +4,7 @@ import os
 import pygame
 import movement
 
+# Screen settings
 WIDTH, HEIGHT = 900, 500        # Screen Height and width constants
 WIN = pygame.display.set_mode((WIDTH, HEIGHT)) # set width and height
 
@@ -11,6 +12,9 @@ FPS = 60                        # frames per second rendered.
 VEL = 5                         # speed of movement
 
 
+
+
+# If we want to produce an object on the screen, such as a border.
 # BORDER = pygame.Rect(WIDTH/2 - 5, 0, 10, HEIGHT)
 
 # Define Colours
